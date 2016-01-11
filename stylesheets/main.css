@@ -50,7 +50,14 @@ a:hover {
     text-decoration: underline;
 }
 
-
+.square {
+    transform: rotate(45deg);
+    background-color: #333333;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: -15px;
+}
 
 
 /* Main Body Section */
@@ -131,8 +138,18 @@ a.black:last-child li {
 /* Footer section */
 
 footer {
-    position: relative;
     background-color: #333333;
-    height: 200px;
+    height: auto;
     bottom: 0;
+
+}
+
+footer > p {
+    text-align: left;
+    margin-left: 10%;
+    color: white;
+    font-size: .8em;
+    height: 150px;
+    padding-top: 5%;
+    padding-bottom: 1%;
 }
